@@ -1,7 +1,7 @@
 import React from 'react';
 import { TabMenu } from 'primereact/tabmenu';
-import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
+
 
 function App() {
   const items = [
@@ -9,6 +9,8 @@ function App() {
     { label: 'Transactions', icon: 'pi pi-heart ' },
     { label: 'Products', icon: 'pi pi-list' },
     { label: 'Messages', icon: 'pi pi-inbox' }
+    
+
   ];
 
   return (
@@ -21,7 +23,8 @@ function App() {
       {/* Hero Section */}
       <section className="text-center p-6 bg-indigo-100 border-round mb-4">
         <h1 className="text-4xl font-bold mb-2">Selamat Datang di Landing Page Kami</h1>
-        <p className="text-lg mb-4">Solusi terbaik untuk kebutuhan digital Anda</p>
+          <p className="text-lg mb-4">Solusi terbaik untuk kebutuhan digital Anda</p>
+          <Button label="Pelajari Lebih Lanjut" className="p-button-raised p-button-primary" />
       </section>
 
       {/* Fitur Section */}
