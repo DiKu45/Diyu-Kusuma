@@ -24,7 +24,6 @@ function App() {
       <section className="text-center p-6 bg-indigo-100 border-round mb-4">
         <h1 className="text-4xl font-bold mb-2">Selamat Datang di Landing Page Kami</h1>
           <p className="text-lg mb-4">Solusi terbaik untuk kebutuhan digital Anda</p>
-          <Button label="Pelajari Lebih Lanjut" className="p-button-raised p-button-primary" />
       </section>
 
       {/* Fitur Section */}
